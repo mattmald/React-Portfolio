@@ -1,12 +1,16 @@
 import React from 'react';
 import LandingPage from './components/LandingPage';
-import  Contact  from './components/Contact';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+
+
 
 export default function App() {
   return (
-      <div>
-  <nav>this is my header</nav>
+    <div>
+      <Navbar />
       <LandingPage />
+      <Footer />
     </div>
   );
 }
