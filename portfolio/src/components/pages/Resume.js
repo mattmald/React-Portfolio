@@ -1,5 +1,5 @@
 import React from 'react';
-export const Contact = () => {
+export default function Resume() {
   return (
     <div>Resume</div>
   )
